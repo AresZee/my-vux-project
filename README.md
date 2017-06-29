@@ -1,6 +1,6 @@
 # my-vux-project
 
-> my Vux project
+> 我的第一个vux项目，加油学习。
 
 ## Build Setup
 
