@@ -6,6 +6,9 @@ import VueRouter from 'vue-router'
 import App from './App'
 import { AjaxPlugin } from 'vux'
 
+//添加mockjs拦截请求，模拟返回服务器数据
+import mock from './api/mock'
+
 // import Home from './components/HelloFromVux'
 import Index from './page/Index'
 
