@@ -11,6 +11,7 @@ import mock from './api/mock'
 
 // import Home from './components/HelloFromVux'
 import Index from './page/Index'
+import Register from './page/Register'
 
 Vue.use(AjaxPlugin)
 Vue.use(VueRouter)
@@ -18,6 +19,10 @@ Vue.use(VueRouter)
 const routes = [{
   path: '/',
   component: Index
+},
+{
+  path: '/register',
+  component: Register
 }]
 
 const router = new VueRouter({
